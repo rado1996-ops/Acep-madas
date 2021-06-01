@@ -1,0 +1,19 @@
+PROCESSED on Thu, 02 Jan 2020 09:25:02 +0000
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+/wp-content/plugins/revslider/public/assets/css/settings.css
+/wp-content/plugins/ultimate-faqs/css/ewd-ufaq-styles.css
+/wp-content/plugins/ultimate-faqs/css/rrssb-min.css
+/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css
+/wp-content/themes/represent/stylesheets/plugins/lightslider.min.css
+/wp-content/themes/represent/stylesheets/styles.css
+/wp-content/themes/represent/stylesheets/core-style.css
+/wp-content/themes/represent/stylesheets/plugins/animate.css
+/wp-content/themes/represent/stylesheets/plugins/bootstrap4-block-grid.min.css
+/wp-content/themes/represent/stylesheets/plugins/owl.carousel.css
+/wp-content/themes/represent/stylesheets/plugins/owl.theme.default.css
+/wp-content/themes/represent/stylesheets/plugins/owl.theme.green.css
+/wp-content/plugins/js_composer/assets/css/js_composer.min.css
+/wp-content/uploads/pum/pum-site-styles.css?generated=1577020170
+/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css
+/wp-content/plugins/mailpoet/assets/dist/css/public.75b7aa11.css
+PROCESSED from http://www.acep-mada.com/?mailpoet_page=subscriptions&mailpoet_router&endpoint=subscription&action=captcha&data=eyJjYXB0Y2hhX3Nlc3Npb25faWQiOiJ5MHVtNGR1MTZ2azh3MGNrMGN3c2dzZ284OGtjY3M4OCJ9

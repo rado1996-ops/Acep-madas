@@ -1,0 +1,38 @@
+/***************************************
+
+
+
+  Theme Name: ACEP MADAGASCAR
+
+  Theme URI: https://acep-mada.com/
+
+  Description: Agence de financement 
+
+  Author: rijacloud
+
+  Author URI: /
+
+  Version: 1.0
+
+  Text Domain: represent
+  Domain Path: /languages
+
+
+  License: ---
+
+  License URI: ----
+
+
+
+  Tags: two-columns, custom-background, threaded-comments, translation-ready, custom-menu
+
+
+
+***************************************/
+
+/* --------------------------------------------------------------------------- */
+
+.navbar {
+	background: #ececec!important;
+	margin-bottom: -70px!important;
+}

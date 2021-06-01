@@ -1,0 +1,73 @@
+<% extends 'layout.html' %>
+
+<% block after_css %>
+<%= stylesheet(
+'formEditor.css'
+)%>
+<% endblock %>
+
+<% block container %>
+<div class="block-editor">
+    <div id="mailpoet_form_edit" class="block-editor__container">
+    </div>
+</div>
+
+<script>
+  <% autoescape 'js' %>
+  var mailpoet_form_data = <%= json_encode(form) %>;
+  var mailpoet_form_exports = <%= json_encode(form_exports) %>;
+  var mailpoet_form_segments = <%= json_encode(segments) %>;
+  var mailpoet_form_pages = <%= json_encode(pages) %>;
+  <% endautoescape %>
+</script>
+
+<style id="mailpoet-form-editor-form-styles"></style>
+<% endblock %>
+
+<% block translations %>
+<%= localize({
+  'addFormName': _x('Add form name', 'A placeholder for form name input'),
+  'form': __('Form'),
+  'formSettings': _x('Settings', 'A settings section heading'),
+  'formPlacement': _x('Form Placement', 'A settings section heading'),
+  'customCss': _x('Custom CSS', 'A settings section heading'),
+  'formSaved': __('Form saved.'),
+  'addFormWidgetHint': __('Add this form to your sidebar or footer on the [link]Widgets page[/link].'),
+  'addFormShortcodeHint': __('Copy and paste this [link]shortcode[/link] on to a post or page.'),
+  'addFormPhpIframeHint': __('[link]PHP[/link] and [link]iFrame[/link] versions are also available.'),
+  'settingsListLabel': __('This form adds the subscribers to these lists'),
+  'settingsAfterSubmit': __('After submit'),
+  'settingsShowMessage': __('Show message'),
+  'settingsGoToPage': __('Go to Page'),
+  'settingsPleaseSelectList': __('Please select a list'),
+  'fieldsBlocksCategory': __('Fields'),
+  'blockMandatory': __('Mandatory field'),
+  'blockFirstName': __('First name'),
+  'blockFirstNameDescription': __('Input field used to catch subscribers’ first names.'),
+  'blockLastName': __('Last name'),
+  'blockLastNameDescription': __('Input field used to catch subscribers’ last names.'),
+  'blockSegmentSelect': __('List selection'),
+  'blockLastNameDescription': __('Allow your subscribers to select which list(s) they want to subscribe to.'),
+  'blockSegmentSelectLabel': __('Select list(s):'),
+  'blockSegmentSelectNoLists': __('Please select at least one list'),
+  'blockSegmentSelectListLabel': __('Select the segment that you want to add'),
+  'blockEmail': __('Email'),
+  'blockEmailDescription': __('Input field used to catch subscribers’ email addresses.'),
+  'blockSubmit': __('Submit button'),
+  'blockSubmitDescription': __('Button used to submit the form.'),
+  'blockSubmitLabel': _x('Subscribe!', 'a default value for a subscription form button'),
+  'missingObligatoryBlock': __('Email input or submit is missing. Try reloading the form editor.'),
+  'label': _x('Label', 'settings for a label of an input'),
+  'displayLabelWithinInput': __('Display label within input'),
+  'blockDivider': __('Divider'),
+  'blockCustomHtml' : __('Custom text or HTML'),
+  'blockCustomHtmlDescription': __('Display custom text or HTML code in your form.'),
+  'blockCustomHtmlDefault': __('Subscribe to our newsletter and join [mailpoet_subscribers_count] other subscribers.'),
+  'blockCustomHtmlContentLabel': _x('Custom text', 'Textarea label'),
+  'blockCustomHtmlNl2br': __('Automatically add paragraphs')
+}) %>
+<% endblock %>
+
+<% block after_javascript %>
+<%= javascript('form_editor.js')%>
+<% endblock %>

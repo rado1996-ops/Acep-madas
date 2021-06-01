@@ -1,0 +1,16 @@
+PROCESSED on Sun, 22 Dec 2019 18:22:17 +0000
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+/wp-content/plugins/revslider/public/assets/css/settings.css
+/wp-content/plugins/ultimate-faqs/css/ewd-ufaq-styles.css
+/wp-content/plugins/ultimate-faqs/css/rrssb-min.css
+/wp-content/themes/represent/stylesheets/plugins/font-awesome.min.css
+/wp-content/themes/represent/stylesheets/plugins/lightslider.min.css
+/wp-content/themes/represent/stylesheets/styles.css
+/wp-content/themes/represent/stylesheets/core-style.css
+/wp-content/themes/represent/stylesheets/plugins/animate.css
+/wp-content/themes/represent/stylesheets/plugins/bootstrap4-block-grid.min.css
+/wp-content/themes/represent/stylesheets/plugins/owl.carousel.css
+/wp-content/themes/represent/stylesheets/plugins/owl.theme.default.css
+/wp-content/themes/represent/stylesheets/plugins/owl.theme.green.css
+/wp-content/uploads/pum/pum-site-styles.css?generated=1577020170
+PROCESSED from http://www.acep-mada.com/?author=1
